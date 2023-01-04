@@ -1,16 +1,42 @@
-body {
-    background-color: rgb(192, 185, 185);
-    font-family: Helvetica, Arial;
+.mainbg {
+    background-color: rgb(175, 175, 175);
+    height: auto;
+    width: auto;
 }
 
-header {
-    display: flex;
-
-}
-
-.awsh1 {
+#awsh1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.awsh1header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-0 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(204, 201, 201);
+
+}
+
+p {
+    margin: 1.5em;
+
+}
+
+#fc0 {
+    color: black;
+    margin: 1.5em;
+}
+
+#fc1 {
+    color: black;
+    margin: 1.5em;
+
 }
